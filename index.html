@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SURVEY FORM</h1>
+    <FORM>
+        <label for="Name"> Enter your Name</label><br>
+        <input type="text" id="Name" placeholder="Jane Doe" class="inputBox" required><br>
+        <label for="Email">Enter your Email </label><br>
+        <input type="email" id="Email" placeholder="JaneD@gmail.com" class="inputBox" required><br>
+        <label for="gender">Choose your Gender</label><br>
+        <label for="male">Male</label>
+        <input type="radio" id="male" value="Male" name="gender"><br>
+        <label for="female">Female</label>
+        <input type="radio" id="female" value="Female" name="gender"><br>
+        <label for="others">Others</label>
+        <input type="radio" id="others"  value="Others" name="gender"><br>
+        <label for="track" class="check">what track are you interested in</label><br>
+        <label for="webdev">Web Development</label>
+        <input type="checkbox" id="webdev" value="Web Development"><br>
+        <label for="dataAnalysis">Data Analysis</label>
+        <input type="checkbox" id="dataAnalysis" value="Data Analysis"><br>
+        <label for="ui">UI/UX</label>
+        <input type="checkbox" id="ui"  value="UI/UX"><br>
+        <label for="cyberSecurity">Cyber Security</label>
+        <input type="checkbox" id="cyberSecurity" value="Cyber Security"><br>
+        <label for="nos" class="check">How many hours are you willing to put in a week?</label><br/>
+        <input type="number" id="nos" min="1" max="100" value="10" class="inputDropdown"><br>
+        <label for="learningSpace">Choose your preferred Learning App</label><br/>
+        <select id="learningSpace" name="learningSpace" class="inputDropdown">
+            <option value="WhatsAPP">WhatsApp</option>
+            <option value="slack">Slack</option>
+            <option value="discord">Discord</option>
+            <option value="telegram">Telegram</option>
+        </select><br/>
+        <label for="message">Any other thing we should know?</label><br/>
+        <textarea name="message" id="message" placeholder="tell us here"></textarea><br>
+        <button type="submit">submit</button>
+    </FORM>
+</div>
+</body>
+</html>

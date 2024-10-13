@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navDiv{
+    background-color: rgb(24, 24, 56);
+    color: #fff;
+    padding: 20px 20px 20px 100px;
+    font-size: 30px;
+}
+.headContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+#logoImg{
+    width: 50px;
+}
+.Fsection{
+    display: flex;
+    justify-content: space-around;
+}
+h3{
+    font-size: 30px;
+    margin: 50px 0;
+    text-align: center;
+}
+.Fsection p{
+    font-size: 25PX;
+}
+.Fsection img{
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+}
+.ssection{
+    display: flex;
+    font-size: 20px;
+}
+.sectionImg{
+    width: 400px;
+    height: 300px;
+    /* padding-left: 100px; */
+}
+button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #fff;
+    background-color: blue;
+    margin: 20px 0 0 100px;
+}
+button:hover{
+    background-color: aqua;
+}
+.box{
+    background: #f5f5f5;
+    box-shadow: 0 0 25px 10px rgb(226, 209, 168);
+    border-radius: 20px;
+    margin: 30px;
+    padding: 100px;
+}
+.Footer p{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+}
+.form{
+    margin: auto; 
+    width: 40%;
+    height: 500px; 
+    text-align: center;
+    background: rgb(117, 115, 115);
+    box-shadow: 0 0 25px 0px rgb(80, 75, 75);
+    border-radius: 10px;
+}
+.Footer h3{
+    color: #f5f5f5;
+    padding-top: 50px;
+}
+.input{
+    text-align: center;
+    margin-bottom: 25px;
+    padding-top: 30px; 
+    width: 60%;
+    height: 40px;
+    border-radius: 15px;
+    color: rgb(50, 74, 102);
+    font-size: 30px;
+    outline: none;
+}
+.Footer button {
+    width: 30%;
+    height: 50px;
+    background-color: rgb(66, 66, 70);
+    margin: auto;
+    margin-top: 50px;
+    font-size: 30px;
+
+}
+#twitter{
+    width: 50px;
+    height: 50px;
+    padding:1rem 0 0 59rem;
+}
+#instagram{
+    width: 50px;
+    height: 50px;
+}
+    
